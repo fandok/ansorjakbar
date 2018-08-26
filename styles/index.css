@@ -83,6 +83,11 @@ body {
 #program th,td {
 	border: 1px solid white;
 }
+
 .program-image {
 	width: 300px;
+}
+
+#gap {
+	height: 80px;
 }
