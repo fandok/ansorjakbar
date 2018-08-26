@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	width:1000px;
+	margin: 0 auto;
+	height: 40px;
+}
+
+#header-image {
+	width:300px;
+	background-color: #F0F0F0;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right:80px;
+	float:left;
+}
+
+#home-image {
+	width:25px;
+	float:left;
+}
+
+#menubar-container {
+	width:600px;
+	padding-left:400px;
+}
+
+#menubar {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.menubar-item {
+	padding-top: 7px;
+	padding-left: 30px;
+	float:left;
+}
+
+.down-button {
+	width: 10px;
+}
