@@ -1,11 +1,10 @@
 body {
-	margin: 0;
+	width:1000px;
+	margin: 0 auto;
 	padding: 0;
 }
 
 #header {
-	width:1000px;
-	margin: 0 auto;
 	height: 40px;
 }
 
@@ -42,4 +41,48 @@ body {
 
 .down-button {
 	width: 10px;
+}
+
+.clear {
+	clear:both;
+}
+
+#banner {
+	width:1000px;
+}
+
+#quote {
+	text-align: center;
+}
+
+.green {
+	color: #076E29;
+}
+
+#quote-paragraph {
+	font-size:25px;
+	font-weight: bold;
+}
+
+#quote-person {
+	font-size:20px;
+	font-weight: normal;
+}
+
+.sub-title {
+	height:80px;
+	font-size:30px;
+	text-align: center;
+	margin-top: 40px
+}
+
+#program {
+	margin: 0 50px;
+}
+
+#program th,td {
+	border: 1px solid white;
+}
+.program-image {
+	width: 300px;
 }
