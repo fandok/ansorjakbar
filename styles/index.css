@@ -88,6 +88,60 @@ body {
 	width: 300px;
 }
 
-#gap {
-	height: 80px;
+.gap {
+	height: 40px;
+}
+
+#news-image {
+	width: 300px;
+	float:left;
+}
+
+#table-border {
+	width: 1000px;
+	position: absolute;
+}
+
+#kegiatan {
+	padding-top: 450px;
+}
+
+.kegiatan-image {
+	width: 300px;
+	float:left;
+}
+
+#kegiatan td {
+	border: 10px solid white;
+}
+
+.subtitle-image {
+	padding-left:25px;
+	width: 250px;
+	text-align: center;
+}
+
+#more-button {
+	text-align:center;
+}
+
+#circle {
+	text-align: center;
+}
+
+#circle td {
+	border: 3px solid white;
+}
+
+.circle {
+	padding-top:10px;
+	width:20px;
+}
+
+#more-button img {
+	width: 150px;
+}
+
+#gap-more {
+	height:10px;
 }
