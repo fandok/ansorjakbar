@@ -145,3 +145,15 @@ body {
 #gap-more {
 	height:10px;
 }
+
+#lembaga table {
+	padding-right: 20px;
+}
+
+#lembaga td {
+	border: 30px solid white
+}
+
+.lembaga-image {
+	width:200px;
+}
