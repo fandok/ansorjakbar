@@ -157,3 +157,44 @@ body {
 .lembaga-image {
 	width:200px;
 }
+
+#footer-menu {
+	width:600px;
+	float:left;
+	background-color: #2F2F2F;
+}
+
+#ansor {
+	width: 100px;
+}
+
+#arahkan {
+	width: 100px;
+	padding-left: 80px;
+}
+
+#footer-menu table {
+	width: 600px;
+}
+
+#footer-menu td {
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+}
+
+#copyright {
+	text-align: right !important;
+	vertical-align: bottom !important;
+}
+
+#footer-address {
+	width:400px;
+	float:left;
+	background-color: #00A859;
+	color: #FFFFFF;
+}
+
+#address {
+	padding-left: 50px;
+}
