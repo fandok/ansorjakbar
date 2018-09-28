@@ -1,3 +1,33 @@
+@font-face {
+	font-family: 'Cabin';
+	src: url(../fonts/Cabin/Cabin-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Cabin Bold';
+	src: url(../fonts/Cabin/Cabin-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Cabin Semi Bold';
+	src: url(../fonts/Cabin/Cabin-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'Cabin Medium';
+	src: url(../fonts/Cabin/Cabin-Medium.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto Light';
+	src :url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
 body {
 	width:1000px;
 	margin: 0 auto;
@@ -197,4 +227,32 @@ body {
 
 #address {
 	padding-left: 50px;
+}
+
+#headline-title {
+	font-size:30px;
+	font-family: Cabin Bold;
+}
+
+.headline-subtitle {
+	font-size:15px;
+	font-family: Roboto Light;
+}
+
+#headline-text {
+	font-size:18px;
+	font-family: Roboto;
+}
+
+#headline-header {
+	font-size: 30px;
+	font-family: Cabin Semi Bold;
+}
+
+#loadmore-image {
+	width: 200px;
+}
+
+#headline {
+	width: 300px;
 }
