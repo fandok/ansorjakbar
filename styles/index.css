@@ -235,12 +235,12 @@ body {
 }
 
 .headline-subtitle {
-	font-size:15px;
+	font-size:12px;
 	font-family: Roboto Light;
 }
 
 #headline-text {
-	font-size:18px;
+	font-size:15px;
 	font-family: Roboto;
 }
 
@@ -250,9 +250,41 @@ body {
 }
 
 #loadmore-image {
-	width: 200px;
+	width: 120px;
 }
 
 #headline {
+	padding-top:50px;
+	padding-left: 350px;
 	width: 300px;
+}
+
+#loadmore-color {
+	color: #4D00FF;
+}
+
+.newsline {
+	padding-left:15px;
+}
+
+.newsline h3 {
+	font-family: Cabin Bold;
+	font-size: 20px;
+}
+
+#newsline-rightbottom {
+	padding-top:100px;
+}
+
+.newsline-2 {
+	padding-left:10px;
+}
+
+.newsline-2 h3 {
+	font-family: Cabin Bold;
+	font-size: 20px;
+}
+
+#newsline-leftbottom {
+	padding-top:80px;
 }
