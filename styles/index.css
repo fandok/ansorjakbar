@@ -28,6 +28,11 @@
 	src :url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
 body {
 	width:1000px;
 	margin: 0 auto;
@@ -64,6 +69,7 @@ body {
 }
 
 .menubar-item {
+	font-family: Roboto;
 	padding-top: 7px;
 	padding-left: 30px;
 	float:left;
@@ -90,17 +96,20 @@ body {
 }
 
 #quote-paragraph {
+	font-family: Roboto;
 	font-size:25px;
 	font-weight: bold;
 }
 
 #quote-person {
+	font-family: Roboto;
 	font-size:20px;
 	font-weight: normal;
 }
 
 .sub-title {
 	height:80px;
+	font-family: Roboto;
 	font-size:30px;
 	text-align: center;
 	margin-top: 40px
@@ -123,8 +132,12 @@ body {
 }
 
 #news-image {
+	position: absolute;
+	left: 200px;
+	padding-top:10px;
 	width: 300px;
 	float:left;
+	z-index:1;
 }
 
 #table-border {
@@ -195,25 +208,32 @@ body {
 }
 
 #ansor {
-	width: 100px;
+	width: 200px;
+	padding-bottom: 20px;
 }
 
 #arahkan {
-	width: 100px;
-	padding-left: 80px;
+	width: 80px;
+	padding-top:10px;
+	padding-left: 100px;
 }
 
 #footer-menu table {
 	width: 600px;
+	padding-top:30px;
+	padding-left:30px;
 }
 
 #footer-menu td {
 	color: #FFFFFF;
 	text-align: left;
 	vertical-align: top;
+	border: 1px solid #2F2F2F;
 }
 
 #copyright {
+	font-family: Roboto;
+	font-size: 15px;
 	text-align: right !important;
 	vertical-align: bottom !important;
 }
@@ -223,6 +243,8 @@ body {
 	float:left;
 	background-color: #00A859;
 	color: #FFFFFF;
+	padding-top:30px;
+	height:244px;
 }
 
 #address {
@@ -287,4 +309,28 @@ body {
 
 #newsline-leftbottom {
 	padding-top:80px;
+}
+
+.footer-head {
+	font-family:Roboto Bold;
+}
+
+.footer-text {
+	font-family:Cabin;
+}
+
+#address-header {
+	font-family: Cabin Bold;
+}
+
+#address-text {
+	font-family: Cabin;
+}
+
+#tausyiah-title {
+	position: absolute;
+	padding-top:30px;
+	padding-left:15px;
+	font-family: Cabin;
+	font-size: 22px;
 }
